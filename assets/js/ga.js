@@ -7,6 +7,6 @@
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-ga('create', 'UA-85648197-1', 'auto');
+ga('create', 'XXXXXXXX', 'auto');
 ga('send', 'pageview');
 
