@@ -51,44 +51,33 @@
 		</ul>
 	</nav>
 
-	<!-- Banner -->
-	<section id="banner">
-		<h2><i>A</i><small>&#8202;<i>2</i></small><i>B</i> Prestige Cars</h2>
-		<p>Business Travel | Airport Transfers | Chauffeured Events | Theatres & Nights Out</p>
-		<h3>Contact Paul for a quote on <a onclick="goog_report_conversion ('Phone - HomePage')" href="tel:+447766034300">07766 034 300</a></h3>
-		<h3>or by email at <a onclick="goog_report_conversion ('Email - HomePage')" href="mailto:bookings@a2bprestigecars.london">bookings@a2bprestigecars.london</a></h3>
-		<ul class="actions">
-			<li><a href="ethos" class="button big special">Learn More</a></li>
-		</ul>
-	</section>
+	<!-- Main -->
+	<section id="contact" class="wrapper">
+		<div class="container">
+			<header class="major narrow">
+				<h2>Thanks for your message!</h2>
+				<p>You can get in touch any time using the form below, alternativly call Paul on <a href="tel:+447766034300">07766 034 300</a>, email <a href="mailto:bookings@a2bprestigecars.london">bookings@a2bprestigecars.london</a> or you can use the social media links below.</p>
+			</header>
+			<form action="/contact-form-handler.php" method="POST">
+				<div class="container 75%">
+					<div class="row uniform 50%">
+						<div class="6u 12u$(xsmall)">
+							<input name="name" placeholder="Name" type="text" required="True" />
+						</div>
+						<div class="6u$ 12u$(xsmall)">
+							<input name="email" placeholder="Email" type="email" required="True" />
+						</div>
+						<div class="12u$">
+							<textarea name="message" placeholder="Message" rows="4" required="True"></textarea>
+						</div>
+					</div>
 
-	<!-- One -->
-	<section id="one" class="wrapper style1">
-		<div class="inner">
-			<article class="feature left">
-				<span class="image"><img src="images/pic03.jpg" alt="" /></span>
-				<div class="content">
-					<h2>Prices</h2>
-					<p>A2B Prestige Cars have set out a transparent pricing list so that you know exactly what to expect from our professional driver. First class service, at a competitive price.</p>
-					<ul class="actions">
-						<li>
-							<a href="prices" class="button alt">More</a>
-						</li>
-					</ul>
+						<ul class="actions">
+								<li><input type="submit" class="special" value="Submit" /></li>
+								<li><input type="reset" class="alt" value="Reset" /></li>
+						</ul>
 				</div>
-			</article>
-			<article class="feature right">
-				<span class="image"><img src="images/pic01.jpg" alt="" /></span>
-				<div class="content">
-					<h2>What we do</h2>
-					<p>At A2B Prestige Cars we offer a comfortable, competitively priced transport service with all of the extras you expect from a professional chauffeur.</p>
-					<ul class="actions">
-						<li>
-							<a href="ethos" class="button alt">More</a>
-						</li>
-					</ul>
-				</div>
-			</article>
+			</form>
 		</div>
 	</section>
 
